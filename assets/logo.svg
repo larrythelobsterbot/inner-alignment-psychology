@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" fill="none">
+  <!-- Tree icon: simplified geometric tree with roots inside a thin circle -->
+  <g transform="translate(4, 2)">
+    <!-- Outer circle -->
+    <circle cx="28" cy="28" r="26.5" stroke="#6B7F4E" stroke-width="1.5" fill="none"/>
+    
+    <!-- Trunk -->
+    <line x1="28" y1="16" x2="28" y2="38" stroke="#8B6B4A" stroke-width="1.8" stroke-linecap="round"/>
+    
+    <!-- Branches (upward) -->
+    <line x1="28" y1="22" x2="20" y2="14" stroke="#6B7F4E" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="28" y1="22" x2="36" y2="14" stroke="#6B7F4E" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="28" y1="18" x2="22" y2="10" stroke="#6B7F4E" stroke-width="1" stroke-linecap="round"/>
+    <line x1="28" y1="18" x2="34" y2="10" stroke="#6B7F4E" stroke-width="1" stroke-linecap="round"/>
+    <line x1="28" y1="16" x2="28" y2="9" stroke="#6B7F4E" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Leaves (small circles at branch tips) -->
+    <circle cx="19" cy="13" r="2.5" fill="#6B7F4E" opacity="0.85"/>
+    <circle cx="37" cy="13" r="2.5" fill="#6B7F4E" opacity="0.85"/>
+    <circle cx="21.5" cy="9" r="2" fill="#6B7F4E" opacity="0.7"/>
+    <circle cx="34.5" cy="9" r="2" fill="#6B7F4E" opacity="0.7"/>
+    <circle cx="28" cy="7.5" r="2.2" fill="#6B7F4E" opacity="0.8"/>
+    
+    <!-- Roots (downward, mirroring branches) -->
+    <line x1="28" y1="35" x2="21" y2="43" stroke="#8B6B4A" stroke-width="1" stroke-linecap="round"/>
+    <line x1="28" y1="35" x2="35" y2="43" stroke="#8B6B4A" stroke-width="1" stroke-linecap="round"/>
+    <line x1="28" y1="38" x2="24" y2="46" stroke="#8B6B4A" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="28" y1="38" x2="32" y2="46" stroke="#8B6B4A" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="28" y1="38" x2="28" y2="48" stroke="#8B6B4A" stroke-width="0.8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Wordmark: "Inner Alignment" in Cormorant Garamond style -->
+  <text x="76" y="32" font-family="'Cormorant Garamond', 'Georgia', serif" font-size="22" font-weight="500" fill="#1e1b18" letter-spacing="0.02em">Inner Alignment</text>
+  
+  <!-- "PSYCHOLOGY" small caps label -->
+  <text x="76" y="50" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="8" font-weight="500" fill="#8B6B4A" letter-spacing="0.25em" text-transform="uppercase">PSYCHOLOGY</text>
+</svg>
