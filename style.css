@@ -557,6 +557,16 @@
   border: 3px solid var(--color-border);
 }
 
+.practitioner-photo {
+  width: 240px;
+  height: 320px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 4px;
+  flex-shrink: 0;
+  display: block;
+}
+
 .practitioner-name {
   font-family: var(--font-display);
   font-size: var(--text-xl);
@@ -592,6 +602,10 @@
   .practitioner-avatar {
     width: 160px;
     height: 160px;
+  }
+  .practitioner-photo {
+    width: 200px;
+    height: 267px;
   }
 }
 
