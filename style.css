@@ -897,6 +897,18 @@
   text-decoration: underline;
 }
 
+.contact-details .btn--primary,
+.contact-booking .btn--primary {
+  color: var(--color-text-inverse);
+  text-decoration: none;
+}
+
+.contact-details .btn--primary:hover,
+.contact-booking .btn--primary:hover {
+  color: var(--color-text-inverse);
+  text-decoration: none;
+}
+
 .contact-booking {
   margin-top: var(--space-10);
   padding: var(--space-8);
