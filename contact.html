@@ -92,7 +92,9 @@
         <div>
           <span class="section-label">Send a Message</span>
           <h2 class="section-heading">We'd Love to Hear From You</h2>
-          <form action="#" method="POST" onsubmit="return false;">
+          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <input type="hidden" name="bot-field" style="display:none">
             <div class="form-group">
               <label for="contact-name" class="form-label">Full Name</label>
               <input type="text" id="contact-name" name="name" class="form-input" placeholder="Your name" required autocomplete="name">
